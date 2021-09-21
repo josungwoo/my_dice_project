@@ -21,15 +21,15 @@ class DicePage extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Expanded(
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
             child: Image.asset('images/dice1.png'),
           ),
         ),
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Expanded(
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
             child: Image.asset('images/dice1.png'),
           ),
         ),
