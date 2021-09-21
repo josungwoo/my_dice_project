@@ -22,13 +22,13 @@ class DicePage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(8.0),
           child: Expanded(
             child: Image.asset('images/dice1.png'),
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(8.0),
           child: Expanded(
             child: Image.asset('images/dice1.png'),
           ),
