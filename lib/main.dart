@@ -19,8 +19,10 @@ class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
+        SizedBox(
+          height: double.infinity,
+        ),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
