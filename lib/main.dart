@@ -59,4 +59,4 @@ class _DicePageState extends State<DicePage> {
 Makerandom(
     leftDiceNumber = Random().nextInt(6) + 1;
     rightDiceNumber = Random().nextInt(6) + 1;
-    );
+  );
