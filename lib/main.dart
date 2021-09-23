@@ -46,7 +46,7 @@ class _DicePageState extends State<DicePage> {
                   rightDiceNumber = Random().nextInt(6) + 1;
                 });
               },
-              child: Image.asset('images/dice$rightDiceNumber.png'),
+              child: Image.asset('images/dice$leftDiceNumber.png'),
             ),
           ),
         ],
