@@ -28,9 +28,9 @@ class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
     Makerandom(
-    leftDiceNumber = Random().nextInt(6) + 1;
+    leftDiceNumber = Random().nextInt(6) + 1,
     rightDiceNumber = Random().nextInt(6) + 1;
-      );
+    );
     return Center(
       child: Row(
         children: <Widget>[
